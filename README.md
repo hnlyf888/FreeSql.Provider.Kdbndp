@@ -6,4 +6,9 @@
 
  and upper(text(b.nspname || '.' || a.relname))  报 function upper(boolean) is not unique 错误的问题  修改为 //and upper(text(b.nspname || '.' || a.relname))
 
+ # 配置支持默认的模式
+ 在链接字符串中配置SearchPath= 类配置
+ 
+ 
+
  
