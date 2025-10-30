@@ -14,5 +14,7 @@
  在链接字符串中配置SearchPath= 类配置
  
  
-
+# 使用方法
+    IFreeSql fsql = new FreeSql.FreeSqlBuilder()
+.UseConnectionString(FreeSql.DataType.KingbaseES, $";SearchPath=center,public;",typeof(FreeSql.Kdbndp.KingbaseESProvider<>))
  
