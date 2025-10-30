@@ -1,4 +1,8 @@
-# 支持人大金仓的V009R003C011 版本
+# FreeSql 源库 https://github.com/dotnetcore/FreeSql
+
+
+
+# 修改支持支持人大金仓的V009R003C011 版本
 # Kdbndp 驱动 来源于 https://gitee.com/dotnetchina/SqlSugar
 # 修改aop的支持
 # 修改内容
